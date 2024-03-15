@@ -1,0 +1,9 @@
+.ms_line {
+    /* width: 100%; */
+    border: 2px solid white;
+}
+
+/* debug */
+.ms_test {
+    background-color: red;
+}
