@@ -1,9 +1,26 @@
 .ms_line {
-    /* width: 100%; */
-    border: 2px solid white;
+  /* width: 100%; */
+  border: 2px solid white;
 }
 
 /* debug */
 .ms_test {
-    background-color: red;
+  background-color: red;
+}
+
+.ms_img {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.ms_circle-green {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  color: lightgreen;
+  border: 2px solid lightgreen;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
