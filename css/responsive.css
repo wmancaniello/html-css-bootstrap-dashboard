@@ -1,0 +1,11 @@
+@media (max-width: 576px) {
+  .ms_small-none {
+    display: none;
+  }
+}
+
+@media (max-width: 780px) {
+    .ms_medium-none {
+      display: none;
+    }
+}

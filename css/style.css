@@ -1,18 +1,26 @@
-.ms_line {
-  /* width: 100%; */
-  border: 2px solid white;
-}
-
 /* debug */
 .ms_test {
   background-color: red;
 }
 
+/* RESET */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Custom Details */
 .ms_img {
   max-width: 80px;
   max-height: 80px;
 }
 
+.ms_line {
+  /* width: 100%; */
+  border: 1px solid white;
+}
+
+/* Cerchi */
 .ms_circle-green {
   width: 40px;
   height: 40px;
@@ -24,3 +32,16 @@
   align-items: center;
   justify-content: center;
 }
+
+.ms_circle-red {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  color: lightgreen;
+  border: 2px solid lightgreen;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* /Cerchi */
