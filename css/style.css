@@ -20,6 +20,10 @@ a {
   border: 1px solid white;
 }
 
+.ms_button {
+  border-radius: 13px;
+}
+
 /* Cerchi */
 .ms_circle-green {
   width: 40px;
@@ -37,8 +41,8 @@ a {
   width: 40px;
   height: 40px;
   background-color: white;
-  color: lightgreen;
-  border: 2px solid lightgreen;
+  color: red;
+  border: 2px solid red;
   border-radius: 50%;
   display: flex;
   align-items: center;

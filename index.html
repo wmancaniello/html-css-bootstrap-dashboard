@@ -199,6 +199,7 @@
             </div>
             <hr class="ms_medium-none" />
             <div class="container-fluid pt-4">
+              <!-- Tabella -->
               <table class="table">
                 <thead>
                   <tr>
@@ -233,12 +234,58 @@
                       <button type="button" class="btn btn-outline-primary">
                         <i class="fa-solid fa-pencil"></i>
                       </button>
-                      <button type="button" class="btn btn-outline-danger">
+                      <button
+                        type="button"
+                        class="btn btn-outline-danger"
+                        data-bs-toggle="modal"
+                        data-bs-target="#elimina"
+                      >
                         <i class="fa-solid fa-trash"></i>
                       </button>
                     </td>
                   </tr>
+
+                  <!-- Modale -->
+                  <div
+                    class="modal fade"
+                    id="elimina"
+                    tabindex="-1"
+                    aria-labelledby="elimina"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header text-center d-block">
+                          <h1 class="modal-title h5" id="elimina">
+                            Elmina prodotto
+                          </h1>
+                          <p>L'eliminazione sarà irreversibile, sei sicuro?</p>
+                        </div>
+                        <div
+                          class="btn-group"
+                          role="group"
+                          aria-label="Basic outlined example"
+                        >
+                          <button
+                            type="button"
+                            class="btn btn-outline-danger p-3"
+                          >
+                            <strong>Si, continua</strong>
+                          </button>
+                          <button
+                            type="button"
+                            class="btn btn-outline-primary p-3"
+                          >
+                            Annulla
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /Modale -->
+
                   <!-- /Primo elemento -->
+
                   <!-- Secondo elemento -->
                   <tr>
                     <td>
@@ -263,12 +310,18 @@
                       <button type="button" class="btn btn-outline-primary">
                         <i class="fa-solid fa-pencil"></i>
                       </button>
-                      <button type="button" class="btn btn-outline-danger">
+                      <button
+                        type="button"
+                        class="btn btn-outline-danger"
+                        data-bs-toggle="modal"
+                        data-bs-target="#elimina"
+                      >
                         <i class="fa-solid fa-trash"></i>
                       </button>
                     </td>
                   </tr>
                   <!-- /Secondo elemento -->
+
                   <!-- Terzo elemento -->
                   <tr>
                     <td>
@@ -293,12 +346,18 @@
                       <button type="button" class="btn btn-outline-primary">
                         <i class="fa-solid fa-pencil"></i>
                       </button>
-                      <button type="button" class="btn btn-outline-danger">
+                      <button
+                        type="button"
+                        class="btn btn-outline-danger"
+                        data-bs-toggle="modal"
+                        data-bs-target="#elimina"
+                      >
                         <i class="fa-solid fa-trash"></i>
                       </button>
                     </td>
                   </tr>
                   <!-- /Terzo elemento -->
+
                   <!-- Quarto elemento -->
                   <tr>
                     <td>
@@ -323,12 +382,18 @@
                       <button type="button" class="btn btn-outline-primary">
                         <i class="fa-solid fa-pencil"></i>
                       </button>
-                      <button type="button" class="btn btn-outline-danger">
+                      <button
+                        type="button"
+                        class="btn btn-outline-danger"
+                        data-bs-toggle="modal"
+                        data-bs-target="#elimina"
+                      >
                         <i class="fa-solid fa-trash"></i>
                       </button>
                     </td>
                   </tr>
                   <!-- /Quarto elemento -->
+
                   <!-- Quinto elemento -->
                   <tr>
                     <td>
@@ -353,12 +418,18 @@
                       <button type="button" class="btn btn-outline-primary">
                         <i class="fa-solid fa-pencil"></i>
                       </button>
-                      <button type="button" class="btn btn-outline-danger">
+                      <button
+                        type="button"
+                        class="btn btn-outline-danger"
+                        data-bs-toggle="modal"
+                        data-bs-target="#elimina"
+                      >
                         <i class="fa-solid fa-trash"></i>
                       </button>
                     </td>
                   </tr>
                   <!-- /Quinto elemento -->
+
                   <!-- Sesto elemento -->
                   <tr>
                     <td>
@@ -375,20 +446,26 @@
                     </td>
                     <td class="ms_small-none">&infin;</td>
                     <td class="ms_medium-none">
-                      <span class="ms_circle-green">
-                        <i class="fa-solid fa-check"></i>
+                      <span class="ms_circle-red">
+                        <i class="fa-solid fa-xmark"></i>
                       </span>
                     </td>
                     <td>
                       <button type="button" class="btn btn-outline-primary">
                         <i class="fa-solid fa-pencil"></i>
                       </button>
-                      <button type="button" class="btn btn-outline-danger">
+                      <button
+                        type="button"
+                        class="btn btn-outline-danger"
+                        data-bs-toggle="modal"
+                        data-bs-target="#elimina"
+                      >
                         <i class="fa-solid fa-trash"></i>
                       </button>
                     </td>
                   </tr>
                   <!-- /Sesto elemento -->
+
                   <!-- Settimo elemento -->
                   <tr>
                     <td>
@@ -405,20 +482,26 @@
                     </td>
                     <td class="ms_small-none">&infin;</td>
                     <td class="ms_medium-none">
-                      <span class="ms_circle-green">
-                        <i class="fa-solid fa-check"></i>
+                      <span class="ms_circle-red">
+                        <i class="fa-solid fa-xmark"></i>
                       </span>
                     </td>
                     <td>
                       <button type="button" class="btn btn-outline-primary">
                         <i class="fa-solid fa-pencil"></i>
                       </button>
-                      <button type="button" class="btn btn-outline-danger">
+                      <button
+                        type="button"
+                        class="btn btn-outline-danger"
+                        data-bs-toggle="modal"
+                        data-bs-target="#elimina"
+                      >
                         <i class="fa-solid fa-trash"></i>
                       </button>
                     </td>
                   </tr>
                   <!-- /Settimo elemento -->
+
                   <!-- Ottavo elemento -->
                   <tr>
                     <td>
@@ -443,12 +526,18 @@
                       <button type="button" class="btn btn-outline-primary">
                         <i class="fa-solid fa-pencil"></i>
                       </button>
-                      <button type="button" class="btn btn-outline-danger">
+                      <button
+                        type="button"
+                        class="btn btn-outline-danger"
+                        data-bs-toggle="modal"
+                        data-bs-target="#elimina"
+                      >
                         <i class="fa-solid fa-trash"></i>
                       </button>
                     </td>
                   </tr>
                   <!-- /Ottavo elemento -->
+
                   <!-- Nono elemento -->
                   <tr>
                     <td>
@@ -465,20 +554,26 @@
                     </td>
                     <td class="ms_small-none">&infin;</td>
                     <td class="ms_medium-none">
-                      <span class="ms_circle-green">
-                        <i class="fa-solid fa-check"></i>
+                      <span class="ms_circle-red">
+                        <i class="fa-solid fa-xmark"></i>
                       </span>
                     </td>
                     <td>
                       <button type="button" class="btn btn-outline-primary">
                         <i class="fa-solid fa-pencil"></i>
                       </button>
-                      <button type="button" class="btn btn-outline-danger">
+                      <button
+                        type="button"
+                        class="btn btn-outline-danger"
+                        data-bs-toggle="modal"
+                        data-bs-target="#elimina"
+                      >
                         <i class="fa-solid fa-trash"></i>
                       </button>
                     </td>
                   </tr>
                   <!-- /Nono elemento -->
+
                   <!-- Decimo elemento -->
                   <tr>
                     <td>
@@ -503,7 +598,12 @@
                       <button type="button" class="btn btn-outline-primary">
                         <i class="fa-solid fa-pencil"></i>
                       </button>
-                      <button type="button" class="btn btn-outline-danger">
+                      <button
+                        type="button"
+                        class="btn btn-outline-danger"
+                        data-bs-toggle="modal"
+                        data-bs-target="#elimina"
+                      >
                         <i class="fa-solid fa-trash"></i>
                       </button>
                     </td>
@@ -511,6 +611,7 @@
                   <!-- /Decimo elemento -->
                 </tbody>
               </table>
+              <!-- /Tabella -->
             </div>
           </div>
           <!-- /Tabella elementi -->
