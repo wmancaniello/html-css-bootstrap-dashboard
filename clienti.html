@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Clienti</title>
 
     <!-- Bootstrap -->
     <link
@@ -21,6 +21,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+
 
     <!-- Custom Style -->
     <link rel="stylesheet" href="./css/style.css" />
@@ -107,11 +111,10 @@
           </a>
           <hr class="ms_line" />
           <ul class="nav nav-pills flex-column mb-auto">
-            <!-- Active sidebar -->
             <li class="nav-item">
               <a
                 href="./index.html"
-                class="nav-link active"
+                class="nav-link text-white"
                 aria-current="page"
               >
                 <svg class="bi pe-none me-2" width="16" height="16">
@@ -129,8 +132,6 @@
                 <span>Sponsorizzazione</span>
               </a>
             </li>
-            <!-- /Active Sidebar -->
-
             <li>
               <a href="./nuovo-prodotto.html" class="nav-link text-white">
                 <svg class="bi pe-none me-2" width="16" height="16">
@@ -139,14 +140,18 @@
                 <i class="fa-solid fa-plus"></i> Nuovo prodotto
               </a>
             </li>
+
+            <!-- Active sidebar -->
             <li>
-              <a href="./clienti.html" class="nav-link text-white">
+              <a href="./clienti.html" class="nav-link active">
                 <svg class="bi pe-none me-2" width="16" height="16">
                   <use xlink:href="#grid"></use>
                 </svg>
                 <i class="fa-solid fa-user-tie"></i> <span>Clienti</span>
               </a>
             </li>
+            <!-- /Active sidebar -->
+
           </ul>
           <hr />
 
