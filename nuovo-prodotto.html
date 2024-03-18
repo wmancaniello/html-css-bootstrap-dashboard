@@ -23,8 +23,7 @@
     />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
-
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
 
     <!-- Custom Style -->
     <link rel="stylesheet" href="./css/style.css" />
@@ -187,6 +186,7 @@
           <!-- Container -->
           <div class="container-fluid pt-5 vh-100 overflow-auto">
             <div class="row pt-3">
+              <!-- c i a o -->
               <!-- Titolo -->
               <div class="col-12 text-center">
                 <h3>Crea nuovo prodotto</h3>
@@ -202,251 +202,237 @@
               <!-- Selezione -->
 
               <!-- Nome -->
-              <div class="row pt-4">
-                <div class="col-2">
-                  <label for="input" class="col-form-label">Nome</label>
-                </div>
-                <div class="col-10 col-lg-4">
-                  <input
-                    class="form-control"
-                    type="text"
-                    value="iPhone 15"
-                    disabled
-                    readonly
-                  />
-                </div>
+              <div class="col-2 pb-3">
+                <label for="input" class="col-form-label">Nome</label>
+              </div>
+              <div class="col-10">
+                <input
+                  class="form-control"
+                  type="text"
+                  value="iPhone 15"
+                  disabled
+                  readonly
+                />
               </div>
               <!-- /Nome -->
+
               <!-- Prezzo -->
-              <div class="row pt-4">
-                <div class="col-2">
-                  <label for="input" class="col-form-label">Prezzo</label>
-                </div>
-                <div class="col-10 col-lg-4">
-                  <input
-                    class="form-control"
-                    type="text"
-                    value="1239,00 €"
-                    disabled
-                    readonly
-                  />
-                </div>
+              <div class="col-2 pb-3">
+                <label for="input" class="col-form-label">Prezzo</label>
+              </div>
+              <div class="col-10">
+                <input
+                  class="form-control"
+                  type="text"
+                  value="1239,00 €"
+                  disabled
+                  readonly
+                />
               </div>
               <!-- /Prezzo -->
-              <!-- Marca -->
-              <div class="row pt-4">
-                <div class="col-2">
-                  <label for="input" class="col-form-label">Capacità</label>
-                </div>
-                <div class="col-10 col-lg-4">
-                  <select
-                    class="form-select"
-                    aria-label="Default select example"
-                  >
-                    <option selected>Scegli la capacità</option>
-                    <option value="1">128 GB</option>
-                    <option value="2">256 GB</option>
-                    <option value="3">512 GB</option>
-                  </select>
-                </div>
-              </div>
 
-              <!-- Marca -->
-              <div class="row pt-4">
-                <div class="col-12 col-lg-6">
-                  <textarea
+              <!-- Capacità -->
+              <div class="col-2 pb-3">
+                <label for="input" class="col-form-label">Capacità</label>
+              </div>
+              <div class="col-10">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Scegli la capacità</option>
+                  <option value="1">128 GB</option>
+                  <option value="2">256 GB</option>
+                  <option value="3">512 GB</option>
+                </select>
+              </div>
+              <!-- /Capacità -->
+
+              <!-- Inserisci Descrizione -->
+              <div class="col-12 pb-3">
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  placeholder="Inserisci la descrizione del prodotto, massimo 1000 caratteri"
+                  rows="3"
+                  maxlength="1000"
+                ></textarea>
+              </div>
+              <!-- /Inserisci Descrizione -->
+
+              <!-- Scegli file -->
+              <div class="col-12 pb-3">
+                <div class="input-group mb-3">
+                  <input
+                    type="file"
                     class="form-control"
-                    id="exampleFormControlTextarea1"
-                    placeholder="Inserisci la descrizione del prodotto, massimo 1000 caratteri"
-                    rows="3"
-                    maxlength="1000"
-                  ></textarea>
+                    id="inputGroupFile02"
+                  />
+                  <label class="input-group-text" for="inputGroupFile02"
+                    >Immagine</label
+                  >
                 </div>
               </div>
-              <!-- /Marca -->
-
-              <div class="row pt-3">
-                <div class="col-12 col-lg-6">
-                  <div class="input-group mb-3">
-                    <input
-                      type="file"
-                      class="form-control"
-                      id="inputGroupFile02"
-                    />
-                    <label class="input-group-text" for="inputGroupFile02"
-                      >Immagine</label
-                    >
-                  </div>
-                </div>
-              </div>
+              <!-- /Scegli file -->
 
               <!-- Disponibilità -->
-              <div class="row">
-                <div class="col-12 col-lg-6">
-                  <div
-                    class="btn-group"
-                    role="group"
-                    aria-label="Basic radio toggle button group"
+              <div class="col-12 pb-3">
+                <div
+                  class="btn-group"
+                  role="group"
+                  aria-label="Basic radio toggle button group"
+                >
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="btnradio1"
+                    autocomplete="off"
+                    checked
+                  />
+                  <label class="btn btn-outline-secondary" for="btnradio1"
+                    >Disponibile</label
                   >
-                    <input
-                      type="radio"
-                      class="btn-check"
-                      name="btnradio"
-                      id="btnradio1"
-                      autocomplete="off"
-                      checked
-                    />
-                    <label class="btn btn-outline-secondary" for="btnradio1"
-                      >Disponibile</label
-                    >
 
-                    <input
-                      type="radio"
-                      class="btn-check"
-                      name="btnradio"
-                      id="btnradio2"
-                      autocomplete="off"
-                    />
-                    <label class="btn btn-outline-secondary" for="btnradio2"
-                      >Esaurito</label
-                    >
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="btnradio2"
+                    autocomplete="off"
+                  />
+                  <label class="btn btn-outline-secondary" for="btnradio2"
+                    >Esaurito</label
+                  >
 
-                    <input
-                      type="radio"
-                      class="btn-check"
-                      name="btnradio"
-                      id="btnradio3"
-                      autocomplete="off"
-                    />
-                    <label class="btn btn-outline-secondary" for="btnradio3"
-                      >Fuori produzione
-                    </label>
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="btnradio3"
+                    autocomplete="off"
+                  />
+                  <label class="btn btn-outline-secondary" for="btnradio3"
+                    >Fuori produzione
+                  </label>
 
-                    <input
-                      type="radio"
-                      class="btn-check"
-                      name="btnradio"
-                      id="btnradio1"
-                      autocomplete="off"
-                      checked
-                    />
-                    <label class="btn btn-outline-secondary" for="btnradio1"
-                      >In arrivo</label
-                    >
-                  </div>
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="btnradio1"
+                    autocomplete="off"
+                    checked
+                  />
+                  <label class="btn btn-outline-secondary" for="btnradio1"
+                    >In arrivo</label
+                  >
                 </div>
               </div>
 
               <!-- Lista checkbox -->
-              <div class="row pt-4">
-                <div class="col-12 col-lg-6">
-                  <ul class="list-group">
-                    <li class="list-group-item">
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="checkbox"
-                          value=""
-                          id="flexCheckDefault"
-                        />
-                        <label class="form-check-label" for="flexCheckDefault">
-                          Fotocamera principale
-                        </label>
-                        <div class="text-muted small">
-                          Foto di alta qualità e registrare video nitidi
-                        </div>
+              <div class="col-12 pb-3">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckDefault"
+                      />
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Fotocamera principale
+                      </label>
+                      <div class="text-muted small">
+                        Foto di alta qualità e registrare video nitidi
                       </div>
-                    </li>
-                    <li class="list-group-item">
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="checkbox"
-                          value=""
-                          id="flexCheckDefault"
-                        />
-                        <label class="form-check-label" for="flexCheckDefault">
-                          Fotocamera principale
-                        </label>
-                        <div class="text-muted small">
-                          Foto di alta qualità e registrare video nitidi
-                        </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckDefault"
+                      />
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Fotocamera principale
+                      </label>
+                      <div class="text-muted small">
+                        Foto di alta qualità e registrare video nitidi
                       </div>
-                    </li>
-                    <li class="list-group-item">
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="checkbox"
-                          value=""
-                          id="flexCheckDefault"
-                        />
-                        <label class="form-check-label" for="flexCheckDefault">
-                          Fotocamera principale
-                        </label>
-                        <div class="text-muted small">
-                          Foto di alta qualità e registrare video nitidi
-                        </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckDefault"
+                      />
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Fotocamera principale
+                      </label>
+                      <div class="text-muted small">
+                        Foto di alta qualità e registrare video nitidi
                       </div>
-                    </li>
-                    <li class="list-group-item">
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="checkbox"
-                          value=""
-                          id="flexCheckDefault"
-                        />
-                        <label class="form-check-label" for="flexCheckDefault">
-                          Fotocamera principale
-                        </label>
-                        <div class="text-muted small">
-                          Foto di alta qualità e registrare video nitidi
-                        </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckDefault"
+                      />
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Fotocamera principale
+                      </label>
+                      <div class="text-muted small">
+                        Foto di alta qualità e registrare video nitidi
                       </div>
-                    </li>
-                    <li class="list-group-item">
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="checkbox"
-                          value=""
-                          id="flexCheckDefault"
-                        />
-                        <label class="form-check-label" for="flexCheckDefault">
-                          Fotocamera principale
-                        </label>
-                        <div class="text-muted small">
-                          Foto di alta qualità e registrare video nitidi
-                        </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckDefault"
+                      />
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Fotocamera principale
+                      </label>
+                      <div class="text-muted small">
+                        Foto di alta qualità e registrare video nitidi
                       </div>
-                    </li>
-                    <li class="list-group-item">
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="checkbox"
-                          value=""
-                          id="flexCheckDefault"
-                        />
-                        <label class="form-check-label" for="flexCheckDefault">
-                          Fotocamera principale
-                        </label>
-                        <div class="text-muted small">
-                          Foto di alta qualità e registrare video nitidi
-                        </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckDefault"
+                      />
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Fotocamera principale
+                      </label>
+                      <div class="text-muted small">
+                        Foto di alta qualità e registrare video nitidi
                       </div>
-                    </li>
-                  </ul>
-                </div>
+                    </div>
+                  </li>
+                </ul>
               </div>
               <!-- /Lista checkbox -->
 
               <!-- Bottone Salva -->
-              <div class="row py-4">
-                <div>
-                  <input class="btn btn-primary" type="submit" value="Salva" />
-                </div>
+              <div class="col-12">
+                <input class="btn btn-primary" type="submit" value="Salva" />
               </div>
               <!-- Bottone Salva -->
             </div>
