@@ -201,134 +201,142 @@
 
               <!-- Selezione -->
 
-              <!-- Nome -->
-              <div class="col-2 pb-3">
-                <label for="input" class="col-form-label">Nome</label>
-              </div>
-              <div class="col-10">
-                <input
-                  class="form-control"
-                  type="text"
-                  value="iPhone 15"
-                  disabled
-                  readonly
-                />
-              </div>
-              <!-- /Nome -->
+              <!-- Row sezione -->
+              <div class="row col-lg-7">
 
-              <!-- Prezzo -->
-              <div class="col-2 pb-3">
-                <label for="input" class="col-form-label">Prezzo</label>
-              </div>
-              <div class="col-10">
-                <input
-                  class="form-control"
-                  type="text"
-                  value="1239,00 €"
-                  disabled
-                  readonly
-                />
-              </div>
-              <!-- /Prezzo -->
-
-              <!-- Capacità -->
-              <div class="col-2 pb-3">
-                <label for="input" class="col-form-label">Capacità</label>
-              </div>
-              <div class="col-10">
-                <select class="form-select" aria-label="Default select example">
-                  <option selected>Scegli la capacità</option>
-                  <option value="1">128 GB</option>
-                  <option value="2">256 GB</option>
-                  <option value="3">512 GB</option>
-                </select>
-              </div>
-              <!-- /Capacità -->
-
-              <!-- Inserisci Descrizione -->
-              <div class="col-12 pb-3">
-                <textarea
-                  class="form-control"
-                  id="exampleFormControlTextarea1"
-                  placeholder="Inserisci la descrizione del prodotto, massimo 1000 caratteri"
-                  rows="3"
-                  maxlength="1000"
-                ></textarea>
-              </div>
-              <!-- /Inserisci Descrizione -->
-
-              <!-- Scegli file -->
-              <div class="col-12 pb-3">
-                <div class="input-group mb-3">
+                <!-- Nome -->
+                <div class="col-2 pb-3">
+                  <label for="input" class="col-form-label">Nome</label>
+                </div>
+                <div class="col-10">
                   <input
-                    type="file"
                     class="form-control"
-                    id="inputGroupFile02"
+                    type="text"
+                    value="iPhone 15"
+                    disabled
+                    readonly
                   />
-                  <label class="input-group-text" for="inputGroupFile02"
-                    >Immagine</label
+                </div>
+                <!-- /Nome -->
+
+                <!-- Prezzo -->
+                <div class="col-2 pb-3">
+                  <label for="input" class="col-form-label">Prezzo</label>
+                </div>
+                <div class="col-10">
+                  <input
+                    class="form-control"
+                    type="text"
+                    value="1239,00 €"
+                    disabled
+                    readonly
+                  />
+                </div>
+                <!-- /Prezzo -->
+
+                <!-- Capacità -->
+                <div class="col-2 pb-3">
+                  <label for="input" class="col-form-label">Capacità</label>
+                </div>
+                <div class="col-10">
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
                   >
+                    <option selected>Scegli la capacità</option>
+                    <option value="1">128 GB</option>
+                    <option value="2">256 GB</option>
+                    <option value="3">512 GB</option>
+                  </select>
+                </div>
+                <!-- /Capacità -->
+
+                <!-- Inserisci Descrizione -->
+                <div class="col-12 pb-3">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    placeholder="Inserisci la descrizione del prodotto, massimo 1000 caratteri"
+                    rows="3"
+                    maxlength="1000"
+                  ></textarea>
+                </div>
+                <!-- /Inserisci Descrizione -->
+
+                <!-- Scegli file -->
+                <div class="col-12 pb-3">
+                  <div class="input-group mb-3">
+                    <input
+                      type="file"
+                      class="form-control"
+                      id="inputGroupFile02"
+                    />
+                    <label class="input-group-text" for="inputGroupFile02"
+                      >Immagine</label
+                    >
+                  </div>
+                </div>
+                <!-- /Scegli file -->
+
+                <!-- Disponibilità -->
+                <div class="col-12 pb-3">
+                  <div
+                    class="btn-group"
+                    role="group"
+                    aria-label="Basic radio toggle button group"
+                  >
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      name="btnradio"
+                      id="btnradio1"
+                      autocomplete="off"
+                      checked
+                    />
+                    <label class="btn btn-outline-secondary" for="btnradio1"
+                      >Disponibile</label
+                    >
+
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      name="btnradio"
+                      id="btnradio2"
+                      autocomplete="off"
+                    />
+                    <label class="btn btn-outline-secondary" for="btnradio2"
+                      >Esaurito</label
+                    >
+
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      name="btnradio"
+                      id="btnradio3"
+                      autocomplete="off"
+                    />
+                    <label class="btn btn-outline-secondary" for="btnradio3"
+                      >Fuori produzione
+                    </label>
+
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      name="btnradio"
+                      id="btnradio1"
+                      autocomplete="off"
+                      checked
+                    />
+                    <label class="btn btn-outline-secondary" for="btnradio1"
+                      >In arrivo</label
+                    >
+                  </div>
                 </div>
               </div>
-              <!-- /Scegli file -->
-
-              <!-- Disponibilità -->
-              <div class="col-12 pb-3">
-                <div
-                  class="btn-group"
-                  role="group"
-                  aria-label="Basic radio toggle button group"
-                >
-                  <input
-                    type="radio"
-                    class="btn-check"
-                    name="btnradio"
-                    id="btnradio1"
-                    autocomplete="off"
-                    checked
-                  />
-                  <label class="btn btn-outline-secondary" for="btnradio1"
-                    >Disponibile</label
-                  >
-
-                  <input
-                    type="radio"
-                    class="btn-check"
-                    name="btnradio"
-                    id="btnradio2"
-                    autocomplete="off"
-                  />
-                  <label class="btn btn-outline-secondary" for="btnradio2"
-                    >Esaurito</label
-                  >
-
-                  <input
-                    type="radio"
-                    class="btn-check"
-                    name="btnradio"
-                    id="btnradio3"
-                    autocomplete="off"
-                  />
-                  <label class="btn btn-outline-secondary" for="btnradio3"
-                    >Fuori produzione
-                  </label>
-
-                  <input
-                    type="radio"
-                    class="btn-check"
-                    name="btnradio"
-                    id="btnradio1"
-                    autocomplete="off"
-                    checked
-                  />
-                  <label class="btn btn-outline-secondary" for="btnradio1"
-                    >In arrivo</label
-                  >
-                </div>
-              </div>
+              <!-- /Row sezione -->
 
               <!-- Lista checkbox -->
-              <div class="col-12 pb-3">
+              <div class="col-12 col-lg-5 pb-3">
                 <ul class="list-group">
                   <li class="list-group-item">
                     <div class="form-check">
